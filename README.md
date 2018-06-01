@@ -46,3 +46,7 @@ ignored, so be careful that you keep them in synch with whatever changes you
 make. xxd really expects exactly 16 bytes worth of hex codes on each line, so
 if you need to insert or delete something that isn't a multiple of 16 bytes
 that's going to really suck.
+
+I have exhaustively tested all three-byte files to ensure this plugin doesn't
+corrupt them. If you want to edit a three-byte file hopefully that makes you
+feel pretty good.
